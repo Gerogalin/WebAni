@@ -1,0 +1,17 @@
+img{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  animation: try 5s infinite;
+}
+
+
+@keyframes try{
+  0%{left: 0;}
+  50%{left: 100%;}
+  51%{left: 100%;}
+  100%{left: 0%;}
+}
+
+//html
+  <img src="ball.jpg">

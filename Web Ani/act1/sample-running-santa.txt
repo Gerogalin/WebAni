@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow:hidden;
+}
+@keyframes santa {
+  from{background-position: 0;}
+  to{background-position: 10296px;}
+}
+
+@keyframes movesanta {
+  0%{left: 0;}
+  100%{left: 100%;}
+}
+.santa{
+  width: 936px;
+  height: 643px;
+  background: url(santa.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: santa 5s steps(11) infinite, movesanta 2s linear infinite; 
+}
+
+//html
+  <div class="santa"> </div>  

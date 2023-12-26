@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+    background: linear-gradient(to right, #FDE2AB, #F2BD55, #F4B237);
+}   
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 3px 0;
+    z-index: 1000; 
+    
+}
+header h1{
+    font-weight: lighter;
+}
+header h1 span {
+    position: relative;
+    top: -15px;
+    display: inline-block;
+    font-weight: lighter;    
+}
+
+.content{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 90%;
+    min-height: 1000px;
+}
+.footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 90%;
+    margin: auto;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+  }
+  .footer p span{
+    font-weight: bold;
+  }
+  h2{
+    color: #333;
+    font-size: 27px;
+    text-align: center;
+  }
+
+
+.f1container{
+    width: 800px;
+    height: 220px;
+    margin: auto;
+    border: 3px solid white;
+    background: linear-gradient(to bottom, #60917F, #9FB183, #FDFADD, #EFD37B, #191D17);
+}
+  .flower {
+    fill: orange;
+  }
+
+  .stem {
+    fill: #5A4A3C;
+  }
+
+  .f2container{
+    width: 250px;
+    height: 530px;
+    margin: auto;
+    margin-top: 30px;
+}
+h3{
+    color: white;
+}
+
+.f3container{
+  width: 69%;
+  height: 300px;
+  margin: auto;
+  border: 3px solid white;
+  background: linear-gradient(to bottom, #60917F, #9FB183, #FDFADD, #EFD37B, #191D17);
+}
+
+#svg4 {
+  border: 2px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 50px;
+}
+
+.f4container{
+  width: 40%;
+  height: 150px;
+  margin: auto;
+  margin-top: 40px;
+
+}
+.f4container h1{
+  color: white;
+  margin: auto;
+}
+
+.f5container{
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  margin-top: 10px;
+  padding: auto;
+}

@@ -1,0 +1,71 @@
+.con1{
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    margin-top: 80px;
+    padding: 10px;
+}
+.con1 h1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 70px;
+}
+.mainbox{
+    width: 90%;
+    margin: auto;
+    background:  white;
+    height: 450px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.box1{
+    width: 350px;
+    height: 380px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 30px;
+    vertical-align: top;
+}
+.box2{
+    width: 400px;
+    height: 440px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #6E1869;
+    background: linear-gradient(to bottom, #3C295D, #F7A510,#FFD400, #DA677A, #452662,  #260939, #260939);   
+}
+.box1 h1{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+	background-image: linear-gradient(45deg, #C5174D, #9E0861, #6E1869);
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.box1 h2{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+canvas {
+    display: block;
+  }
+
+.main2 {
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+.main2 h2{
+    color: wheat;
+    font-size: 25px;
+    font-family: sans-serif;
+}
